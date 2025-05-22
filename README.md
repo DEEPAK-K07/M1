@@ -112,11 +112,11 @@ Write a program to find minimum between two fraction numbers using conditional o
 #include <stdio.h>
 int main() 
 {
-    int a, b, min;
-    scanf("%d", &a);
-    scanf("%d", &b);
+    float a, b, min;
+    scanf("%f", &a);
+    scanf("%f", &b);
     min = (a < b) ? a : b;
-    printf("The minimum number is: %d\n", min);
+    printf("The minimum number is: %f\n", min);
     return 0;
 }
 ```
