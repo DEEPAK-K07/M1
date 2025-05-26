@@ -166,6 +166,8 @@ int main()
     scanf("%d", &value);
     if (value == 1) {
         printf("The value is equal to 1.\n");
+    }else{
+	printf("The value is not equal to 1.\n");
     }
     return 0;
 }
