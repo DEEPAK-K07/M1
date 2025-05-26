@@ -223,21 +223,21 @@ int main() {
     tot = m1 + m2 + m3;
     per = tot / 3;
 
-    printf("Total Marks = %.2f\n", tot);
-    printf("Percentage = %.2f%%\n", per);
-
     if (m1 >= 40 && m2 >= 40 && m3 >= 40) {
         if (per >= 60)
-            printf("Division = First\n");
+            printf("Result = First Division\n");
         else if (per >= 48)
-            printf("Division = Second\n");
+            printf("Result = Second Division\n");
         else if (per >= 36)
-            printf("Division = Pass\n");
+            printf("Result = Pass Division\n");
         else
-            printf("Division = Fail\n");
+            printf("Result = Fail\n");
     } else {
-        printf("Division = Fail\n");
+        printf("Reslut = Fail\n");
     }
+
+    printf("Total Marks = %.2f\n", tot);
+    printf("Percentage = %.2f%%\n", per);
 
     return 0;
 }
